@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="nav-bg">
+        <nav class="menu-nav">
+            <img src="img\LogoIfsp.png" alt="logo ifsp">
+            <div class="menu-nav-topico">
+                <h1>IFSP Câmpus São Carlos</h1>
+                <h2>Ministéro da Educação</h2>
+            </div>
+        </nav>
+    </header>
+    <section class="sub-nav-bg">
+            <div class="sub-nav">
+                <ul>
+                    <li><a href="#">Contato e Localização</a></li>
+                    <li><a data-refs="#login">Candidatos</a></li>
+                    <li><a data-refs="#cadastro">Cadastrar Vaga </a></li>
+                    <li><a href="http://www2.ifsp.edu.br/acessoainformacao//" target="_blank" rel="noopener noreferrer">Acesso à Informação</a></li>
+                    <li><a href="http://www2.ifsp.edu.br/ouvidoria/" target="_blank" rel="noopener noreferrer">Ouvidoria</a></li>
+                </ul>
+            </div>
+        </section>
+
+
+    <section class="tabela">
+    <h1>Empresa</h1>
+    
+    
+  </section>
+
+   <section class="login-bg" id="login">
+      <h1>Cadastrar Vagas</h1>
+      <div class="Cadastrar-vaga">
+          <form class="formulario-vaga" method="POST" action="empresacrl">
+           	  <label for="numero">numero da vaga:</label>
+              <textarea name="numero" id="numero" rows="3" cols="80"></textarea>
+              
+               <label for="nome">nome da vaga/area da vaga:</label>
+              <textarea name="nome" id="nome" rows="3" cols="80"></textarea>
+              
+              <label for="descricao">Descrição da vaga:</label>
+              <textarea name="descricao" id="descricao" rows="3" cols="80"></textarea>
+
+              <label for="requisitos-obg">Requisitos Obrigatórios:</label>
+              <textarea name="obrigatorio" id="requisitos-obg" rows="7" cols="80" maxlength="500" wrap="hard" placeholder="Informe os requisitos Obrigatórios para a vaga" ></textarea>
+              
+              <label for="requisitos-desejaveis">Requisitos Desejáveis:</label>
+              <textarea name="desejavel" id="requisitos-desejaveis" rows="7" cols="80" maxlength="500" wrap="hard" placeholder="Informe os requisitos Desejaveis para a vaga" ></textarea>
+            
+              <button>cadastrar</button>
+          </form> 
+      </div>
+  </section>
+      
+      <section class="login-bg" id="login">
+      	<h1>consultar curriculos</h1>
+      	<div class="Cadastrar-vaga">
+         	 <form class="formulario-vaga" method="POST" action="pesquisacrl">
+           	  <label for="numero">clique abaixo para visualizar curriculos:</label>
+           	  <button>visualizar</button>
+             </form>
+        </div>
+ 	  </section>
+
+     
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

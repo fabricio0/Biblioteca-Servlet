@@ -1,0 +1,75 @@
+Fabricio Junior de Campos 160227-6
+
+Inicialmente o trabalho era em trio, mas dois acabaram saindo por problemas pessoais e por esse motivo não inclui os nomes dos mesmos.
+O único detalhe importante é que coloquei a pasta do hsqldb na area de trabalho e dentro dela o banco de dados. 
+Área de trabalho: 
+hsqldb:
+	-->bd -->projetodw2 
+	-->hsqldb
+a database se chama projetodw2
+
+Para usabilidade do programa, tem que seguir os passos  a partir do index, cadastro, login e assim por diante.
+
+create table administrador(
+	matricula varchar(30) primary key,
+	nome varchar(30),
+	senha varchar(30),
+	categoria varchar(30),
+	status integer
+);
+
+create table empresa( nome varchar(30),
+	cnpj varchar(30) primary key,
+	email varchar(30),
+	r_social varchar(30),
+	responsavel varchar(30), 
+	cadastro varchar(30),
+	cargo varchar(30),
+	cep varchar(30),
+	cidade varchar(30),
+	estado varchar(30),
+	endereco varchar(30),
+	numero varchar(30),
+	bairro varchar(30),
+	telefone varchar(30),
+	senha varchar(30),
+	categoria varchar(30),
+	status integer
+);
+
+create table supervisor( 
+	matricula varchar(30) primary key,
+	nome varchar(30),
+	senha varchar(30),
+	categoria varchar(30),
+	status integer
+);
+
+create table usuario(nome varchar(30),
+	matricula varchar(30) primary key,
+	curso varchar(30),
+	fone varchar(30), 
+	email varchar(30),
+	senha varchar(30),
+	categoria varchar(30),
+	status integer
+);
+
+create table curriculo(
+	nome varchar(30),
+	formacao varchar(30),
+	experiencia varchar(30),
+	matAluno varchar(30) primary key,
+	status varchar(30),
+	foreign key(matAluno) references usuario(matricula)
+);
+create table empresaCRL(
+	numero varchar(30) primary key,
+	nome varchar(30),
+	obrigatorio varchar(30),
+	desejavel varchar(30),
+	descricao varchar(30),
+	cnpj varchar(30),
+	status integer,
+	foreign key(cnpj) references empresa(cnpj)
+);

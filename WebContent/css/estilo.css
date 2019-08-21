@@ -1,0 +1,735 @@
+ul,li,p,h1,h2,h3,h4,h5,h6,dt,dd,dl,a,th,td{
+    font-size: 1em;
+    list-style: none;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box
+}
+img{
+    max-width: 100%;
+}
+
+
+
+/* tamanho logo 3em; 25px 16px */
+a{
+    text-decoration: none;
+}
+body, h1, h2, p, ul, a{
+    margin: 0px;
+    border:0px;
+    padding: 0px;
+}
+
+ul li{
+    list-style: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+li,h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+p,label,input{
+    font-family: 'Playfair Display', serif;
+   
+}
+.sub-nav-bg{
+    background: #00420c;
+}
+.sub-nav{
+    max-width: 960px;
+    margin:  0 auto;
+    color: #fff;
+  font-size: .88em;
+}
+.nav-bg{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#076117+0,61c419+50,076117+100 */
+background: rgb(7,97,23); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(7,97,23,1) 0%, rgba(97,196,25,1) 50%, rgba(7,97,23,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(7,97,23,1) 0%,rgba(97,196,25,1) 50%,rgba(7,97,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(7,97,23,1) 0%,rgba(97,196,25,1) 50%,rgba(7,97,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#076117', endColorstr='#076117',GradientType=0 ); /* IE6-9 */
+padding-top: 30px;
+padding-bottom: 35px;
+}
+.menu-nav{
+    max-width: 960px;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.menu-nav-topico{
+    color: #fff;
+    margin-left: 5px;
+}
+.menu-nav-topico h1{
+    font-family: "open_sansextrabold",'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 2.75em;
+    line-height: .8em;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+}
+.menu-nav-topico h2{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    position: relative;
+    top: 4px;
+}
+.sub-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0px;
+}
+.sub-nav a{
+    color: #fff;
+    padding-left: 10px;
+}
+.sub-nav a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.sub-nav li:nth-child(1) a:after, 
+.sub-nav li:nth-child(2) a:after,
+.sub-nav li:nth-child(3) a:after,
+.sub-nav li:nth-child(4) a:after
+{
+    content: '';
+    display: inline-block;
+    height: 15px;
+    border: 1px #eeeeee solid;
+    margin-left: 10px;
+}
+.sub-nav li:last-child a:after{
+    content:'';
+    display: inline-block;
+    height: 15px;
+}
+
+
+
+
+.contato{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.contato h2{
+    color: #595e67;
+    font-size: 2.7em;
+    margin: 0 0 18px 0;
+    letter-spacing: -1px;
+    margin-top: 30px;
+}
+.contato h2:after,.contato h3:after,.contato p:nth-child(5):after{
+    content: '';
+    display: block;
+    width: 100%;
+    border: 1px #eeeeee solid;
+    margin-top: 30px;
+}
+.contato h3, .lista-contato h3{
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.3em;
+    font-weight: bold;
+        font-size: 1.18em;
+        margin-top: 30px;
+}
+h3.lista-contato{
+    margin-bottom: 30px;
+}
+.contato p:nth-child(3){
+    margin-top:30px;
+}
+.contato p{
+    font-size: .9rem !important;
+    line-height: 1.75em;
+}
+.contato a{
+    display: inline;
+}
+.inativo{
+    display: none
+}
+.ativo{
+    display: block;
+}
+
+
+
+
+
+
+
+.login-bg{
+    background: #595E67;
+    height: 700px;
+    margin-top: 30px;
+}
+.login-bg h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E8E7E7;
+    padding-top: 60px;
+}
+.login-bg h1:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 60px;
+    background: #E8E7E7;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+
+
+.login-flex{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+  
+.formulario{
+    width: 420px;
+    background: #E8E7E7;
+    height: 450px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.formulario h3{
+    color: #595e67; /*cinza escuro*/
+    font-size: 1.5em;
+    text-transform: capitalize;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+
+.formulario h3:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 60px;
+    background: #595e67;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.formulario-info{
+    width: 420px;
+    margin: 0 auto;
+}
+
+.formulario label{
+    display: block;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 65px;
+    line-height: 2em;
+    color: #595E67;
+}
+.formulario input{
+    font-size: 1.2em;
+    width: 302px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #595E67;
+    color: #595E67;
+}
+.formulario button, .Cadastrar-vaga button{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 2px solid #595E67;
+    color: #595E67;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.formulario-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+}
+.form-info{
+    flex-basis: 70px;
+}
+.form-info-grid{
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 170px;
+    margin-bottom: 10px;
+}
+
+.form-info-grid p{
+    margin: 10px 10px;
+    border: 3px solid #E8E7E7;
+    color: #E8E7E7;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 40px 40px;
+}
+
+.form-info-grid p:before{
+    display: block;
+    text-align: center; 
+}
+.cadastro-bg{
+    height: 700px;
+    margin: 0 auto;
+     width: 960px;
+}
+.cadastro-bg h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #595e67;
+    padding-top: 60px;
+    /* cinza claro #E8E7E7; */
+}
+.cadastro-bg h1:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 60px;
+    background: #595e67;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.cadastro-flex{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.cadastro-flex .formulario{
+     border: 3px solid #595e67;
+}
+
+.form-info-grid-cadastro{
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 170px;
+    margin-bottom: 10px;
+}
+
+.form-info-grid-cadastro p{
+    margin: 10px 10px;
+    border: 3px solid #E8E7E7;
+    color: #595e67;
+    background: #e8e7e7;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 40px 40px;
+    border: 3px solid #595e67;
+}
+
+.form-info-grid-cadastro p:before{
+    display: block;
+    text-align: center; 
+}
+
+
+
+
+
+.formulario-cad{
+    width: 420px;
+    background: #E8E7E7;
+    height: 490px;
+    text-align: center;
+    text-transform: capitalize;
+    border: 3px solid #595e67;
+}
+.formulario-cad h3{
+    color: #595e67; /*cinza escuro*/
+    font-size: 1.5em;
+    text-transform: capitalize;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+
+.formulario-cad h3:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 60px;
+    background: #595e67;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.formulario-cad-info{
+    width: 420px;
+    margin: 0 auto;
+}
+
+.formulario-cad label{
+    display: block;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 65px;
+    line-height: 2em;
+    color: #595E67;
+}
+.formulario-cad input{
+    font-size: 1.2em;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #595E67;
+    color: #595E67;
+}
+.formulario-cad button{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 2px solid #595E67;
+    color: #595E67;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.formulario-cad,.formulario,.Cadastrar-vaga form{
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.form-info-grid-cadastro p,.form-info-grid p{
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tabela{
+  margin-bottom: 30px;
+  color: #595e67;
+}
+.tabela{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.tabela table{
+  border-spacing:0px;
+}
+.tabela table, .tabela h1{
+  max-width:960px;
+  margin: 0 auto;
+  text-align:center;
+}
+.tabela h1{
+  font-size: 2em;
+  font-weight:bold;
+  margin-top: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+.tabela h1:after{
+  content:'';
+  display:block;
+  width:30px;
+  border: 1px solid #595e67;
+  margin: 0 auto;
+  margin-top:3px;
+  margin-bottom: 25px;
+}
+
+.tabela th{
+  font-size:1.3em;
+  font-weight: bold;
+  width: 202px;
+  font-family: 'Nunito', sans-serif;
+}
+.tabela tr td{
+  font-size:1em;
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.tabela table tr:nth-child(even){
+  background-color: #595e67;
+  color: #eaedf2;
+}
+
+.login-bg .Cadastrar-vaga{
+    display: flex;
+    width: 960px;
+    margin:  0 auto;
+}
+
+.formulario.anima{
+   animation: showleftRight 1s ease;
+}
+.formulario-cad.animaRight{
+   animation: showleftRight 1s ease;
+}
+.especial{
+    width: 600px;
+    height: 830px;
+}
+.especial2{
+    height: 680px;
+}
+.formulario-cad.animaRight.especial input{
+   width: 300px;
+   display: inline-block;
+   
+}
+.formulario-cad.animaRight.especial label{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+@keyframes showleft{
+    from{
+        opacity: 0;
+        transform: translate3d(-1230px,0,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+@keyframes showleftRight{
+    from{
+        opacity: 0;
+        transform: translate3d(1230px,0,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+
+@media screen and (max-width: 301px){
+    .contato {
+        width: 281px;
+        margin-right: 15px;
+        line-height: 1.5em;
+        text-indent: 1em;
+    }
+    .contato h2,.contato h3,.contato p,.contato span{
+        margin: 0 15px;
+    }
+    .login-bg{
+        height: 1200px;
+    }
+    .login-flex, .cadastro-flex{
+        display: block;
+    }
+    .cadastro-bg{
+        width: 281px;
+
+    }
+    .formulario input, .formulario-cad input, .formulario-cad.animaRight.especial input{
+        width: 220px;
+        margin: 0 auto;
+    }
+     .formulario-cad.animaRight.especial{
+        height: 1300px;
+     }
+    .formulario label, .formulario-cad label, .formulario-cad.animaRight.especial label{
+        text-align: left;
+        padding-left: 30px;
+    }
+    .formulario, .formulario-cad{
+        margin-left: 5px;
+        width: 270px;
+    }
+    .login-flex .formulario.inativo ,.formulario-cad.inativo{
+        width: 281px;
+        display: none;
+    }
+    .formulario-info{
+       width: 281px;
+       clear: both;
+    }
+    .form-info-grid p,.form-info-grid-cadastro p{
+        width: 180px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .formulario-cad{
+        margin-top: 30px;
+    }
+    .login-bg h1:after ,.cadastro-bg h1:after{
+    margin-bottom: 0;
+}
+
+
+}
+
+@media screen and (min-width: 303px) and (max-width: 768px) {
+    .contato {
+        width: 720px;
+        margin-right: 15px;
+        line-height: 1.5em;
+        text-indent: 1em;
+    }
+    .contato h2,.contato h3,.contato p,.contato span{
+        margin: 0 15px;
+    }
+    .login-bg{
+        height: 750px;
+    }
+    .cadastro-bg{
+        width: 720px;
+
+    }
+    .formulario input, .formulario-cad input, .formulario-cad.animaRight.especial input{
+        width: 220px;
+        margin: 0 auto;
+    }
+     .formulario-cad.animaRight.especial{
+        height: 1400px;
+     }
+    .formulario label, .formulario-cad label, .formulario-cad.animaRight.especial label{
+        text-align: left;
+        padding-left: 30px;
+    }
+    .formulario, .formulario-cad{
+        margin-left: 5px;
+        width: 400px;
+        margin-right: 30px
+    }
+    .login-flex .formulario.inativo ,.formulario-cad.inativo{
+        width: 281px;
+        display: none;
+    }
+    .formulario-info{
+       width: 281px;
+       clear: both;
+    }
+    .form-info-grid p,.form-info-grid-cadastro p{
+        width: 180px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .formulario-cad{
+        margin-top: 30px;
+    }
+    .cadastro-bg h1:after{
+    margin-bottom: 20px;
+}
+    .contato h2{
+        margin-top: 30px;
+    }
+}
+
+/*empresa*/
+
+.formulario-vaga label,
+.formulario-vaga textarea,
+.formulario-vaga button {
+    padding-top: 5px;
+}
+.formulario-vaga{
+    width: 750px;
+    height: 500px;
+    background-color: #E8E7E7;
+    padding: 5px 44.5px;
+    margin: 0 auto;
+}
+
+.formulario-vaga label {
+    display: block;
+    font-weight: bold;
+    color: #595E67;
+}
+
+#requisitos-desejaveis {
+    display: block;
+}
+
+.Cadastrar-vaga button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.Cadastrar-vaga .formulario-vaga input,
+.Cadastrar-vaga .formulario-vaga textarea{
+    width: 660px;
+}
+
+
+
+
+/*admin*/
+.radios span{
+    cursor: pointer;
+    color: blue;
+
+}
+@media screen and (min-width: 303px) and (max-width: 768px){
+    .tabela{
+        width: 450px;
+    }
+    .Cadastrar-vaga{
+        max-width: 600px;
+
+    }
+    .Cadastrar-vaga .formulario-vaga{
+        width: 600px;
+    }
+    .Cadastrar-vaga .formulario-vaga textarea,.Cadastrar-vaga .formulario-vaga input{
+        width: 520px;
+    }
+    .Cadastrar-vaga .formulario-vaga button{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 301px){
+     .tabela{
+        width: 200px;
+    }
+    .Cadastrar-vaga{
+        max-width: 260px;
+    }
+    .Cadastrar-vaga .formulario-vaga{
+        width: 260px;
+        margin-top: 30px;
+    }
+    .Cadastrar-vaga .formulario-vaga textarea,
+    .Cadastrar-vaga .formulario-vaga input{
+        width: 200px;
+    }
+    .Cadastrar-vaga .formulario-vaga button{
+        margin-top: 20px;
+    }
+}
